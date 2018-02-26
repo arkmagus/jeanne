@@ -1,0 +1,1 @@
+python scripts_asr/transcript.py --scp /project/nakamura-lab07/Work/andros-tj/okeanos/dataset/LJSpeech/meta/test_small_wav.scp --model expr_seq2seq_asr/dummy/model.mdl --data_cfg cfg_dataset/dataset_ljspeech_tiny.json

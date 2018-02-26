@@ -1,0 +1,13 @@
+{
+    "src" : {
+        "train" : "/project/nakamura-lab07/Work/andros-tj/okeanos/dataset/LJSpeech/meta/train_wav.scp",
+        "dev" : "/project/nakamura-lab07/Work/andros-tj/okeanos/dataset/LJSpeech/meta/dev_wav.scp",
+        "test" : "/project/nakamura-lab07/Work/andros-tj/okeanos/dataset/LJSpeech/meta/test_wav.scp"
+    },
+    "tgt" : {
+        "train" : "/project/nakamura-lab07/Work/andros-tj/okeanos/dataset/LJSpeech/meta/train_char",
+        "dev" : "/project/nakamura-lab07/Work/andros-tj/okeanos/dataset/LJSpeech/meta/dev_char",
+        "test" : "/project/nakamura-lab07/Work/andros-tj/okeanos/dataset/LJSpeech/meta/test_char",
+        "vocab" : "/project/nakamura-lab07/Work/andros-tj/okeanos/dataset/LJSpeech/meta/all_char.dict"
+    }
+}

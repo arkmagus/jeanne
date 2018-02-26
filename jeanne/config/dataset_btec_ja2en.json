@@ -1,0 +1,14 @@
+{
+    "src" : {
+        "train" : "/project/nakamura-lab04/Work/student/2016/andros-tj/bag/BTEC/train.ja",
+        "dev" : "/project/nakamura-lab04/Work/student/2016/andros-tj/bag/BTEC/dev.ja",
+        "test" : "/project/nakamura-lab04/Work/student/2016/andros-tj/bag/BTEC/test.ja",
+        "vocab" : "/project/nakamura-lab04/Work/student/2016/andros-tj/bag/BTEC/train.ja.dict.cut25000"
+    },
+    "tgt" : {
+        "train" : "/project/nakamura-lab04/Work/student/2016/andros-tj/bag/BTEC/train.en",
+        "dev" : "/project/nakamura-lab04/Work/student/2016/andros-tj/bag/BTEC/dev.en",
+        "test" : "/project/nakamura-lab04/Work/student/2016/andros-tj/bag/BTEC/test.en",
+        "vocab" : "/project/nakamura-lab04/Work/student/2016/andros-tj/bag/BTEC/train.en.dict.cut25000"
+    }
+}
