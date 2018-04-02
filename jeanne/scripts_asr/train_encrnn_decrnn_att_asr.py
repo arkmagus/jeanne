@@ -108,7 +108,7 @@ if __name__ == '__main__' :
     
     print("Finish loading dataset ...")
     
-    NDIM_SRC = 40
+    NDIM_SRC = constant.N_MEL
     NVOCAB_TGT = len(data_list['tgt']['vocab'])
     model = ENCRNN_DECRNN_ATT_ASR(
             enc_in_size=NDIM_SRC, dec_in_size=NVOCAB_TGT, n_class=NVOCAB_TGT,

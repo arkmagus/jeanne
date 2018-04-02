@@ -9,4 +9,4 @@ BOS_WORD = '<s>'
 EOS_WORD = '</s>'
 
 ASR_MAX_SCORE = 1.0
-
+N_MEL = 40

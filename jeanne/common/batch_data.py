@@ -12,7 +12,7 @@ def extract_speech_feat(wav_list) :
     # load into mfcc
     for ii in range(batch) :
         _wav, _sr = librosa.load(wav_list[ii], sr=None)
-        feat_list.append(librosa.feature.mfcc(y=_wav, sr=_sr, n_mfcc=40).T)
+        feat_list.append(librosa.feature.mfcc(y=_wav, sr=_sr, n_mfcc=constant.N_MEL).T)
     feat_len = [len(x) for x in feat_list]
     return feat_list, feat_len
     pass
